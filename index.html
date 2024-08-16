@@ -158,7 +158,7 @@
 
     <!-- Replace the file name here: 'mindar-image="imageTargetSrc: ./assets/YOUR FILE NAME.mind;' -->
     <a-scene
-      mindar-image="imageTargetSrc: ./assets/Bharat XR New Sticker.mind; autoStart: true; showStats: false; uiScanning: #example-scanning-overlay;"
+      mindar-image="imageTargetSrc: ./assets/Bharat XR New Sticker.mind; autoStart: true; showStats: false; uiScanning: #example-scanning-overlay; filterMinCF:0.0001; filterBeta: 0.001"
       loading-screen="dotsColor: red; backgroundColor: black; enabled: false" gesture-detector color-space="sRGB"
       renderer="colorManagement: true, physicallyCorrectLights, logarithmicDepthBuffer: true"
       xr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
